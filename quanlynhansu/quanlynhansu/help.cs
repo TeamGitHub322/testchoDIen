@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace quanlynhansu
 {
-     public partial class Form1 : Form
+     public partial class help : Form
      {
-          public Form1()
+          public help()
           {
                InitializeComponent();
-          }
-
-          private void button1_Click(object sender, EventArgs e)
-          {
-               help hp = new help();
-               
-               hp.ShowDialog();
           }
      }
 }
